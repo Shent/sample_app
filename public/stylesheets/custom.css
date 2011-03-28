@@ -2,7 +2,9 @@ body { background: #cff; }
 
 .round { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
 .container { width: 710px; margin: 0 auto; }
-.flash.success { background: #390; padding: 5px 10px; }
+.flash { padding: 5px 10px; border: 2px solid #ccc; }
+.success { background: #390; }
+.error { background: #c30; color: #fff; }
 
 header { padding: 20px 0 0 0; }
 header img { padding: 10px; background: #fff; border: 0; }
