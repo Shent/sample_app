@@ -2,6 +2,7 @@ body { background: #cff; }
 
 .round { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
 .container { width: 710px; margin: 0 auto; }
+.flash.success { background: #390; padding: 5px 10px; }
 
 header { padding: 20px 0 0 0; }
 header img { padding: 10px; background: #fff; border: 0; }
@@ -28,11 +29,21 @@ nav ul li a:visited { color: #09c; }
 /* Sign up button */
 a.signup_button { margin: 0 auto; display: block; text-align: center; width: 190px; color: #fff; background: #060; font-size: 20px; font-weight: bold; padding: 20px; }
 
-/* user show page */
+/* User show page */
 table.profile { width: 100%; margin: 0;  }
 table.profile td.main { width: 40%; padding: 10px; }
 table.profile td.main img.gravatar { border: 1px solid #999; margin: 0 0 -15px 0; }
 table.profile td.sidebar { width: 30%; padding: 10px; vertical-align: top; background: #ffc; }
+
+
+/* User new page */
+div.field, div.actions { margin: 0 0 10px 0; }
+.field_with_errors { margin: 10px 0 0 0; padding: 2px; background: #f00; display: table; }
+.field_with_errors label { color: #fff; }
+#error_explanation { width: 400px; border: 2px solid red; padding: 0; margin: 0 0 20px 0; background: #f0f0f0; }
+#error_explanation h2 { text-align: left; font-weight: bold; padding: 5px 5px 5px 15px; margin: 0; font-size: 12px; background: #c00; color: #fff; }
+#error_explanation p { padding: 5px; color: #333; margin: 0; }
+#error_explanation ul li { font-size: 12px; list-style: square; }
 
 
 /* Footer */
