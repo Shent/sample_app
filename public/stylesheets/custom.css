@@ -1,5 +1,6 @@
 body { background: #cff; }
 
+.round { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
 .container { width: 710px; margin: 0 auto; }
 
 header { padding: 20px 0 0 0; }
@@ -27,8 +28,11 @@ nav ul li a:visited { color: #09c; }
 /* Sign up button */
 a.signup_button { margin: 0 auto; display: block; text-align: center; width: 190px; color: #fff; background: #060; font-size: 20px; font-weight: bold; padding: 20px; }
 
-
-.round { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
+/* user show page */
+table.profile { width: 100%; margin: 0;  }
+table.profile td.main { width: 40%; padding: 10px; }
+table.profile td.main img.gravatar { border: 1px solid #999; margin: 0 0 -15px 0; }
+table.profile td.sidebar { width: 30%; padding: 10px; vertical-align: top; background: #ffc; }
 
 
 /* Footer */
